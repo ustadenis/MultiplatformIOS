@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333FC5E9232AD1C9000D95E2 /* CommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333FC5E8232AD1C9000D95E2 /* CommonModule.framework */; };
+		333FC5EA232AD1C9000D95E2 /* CommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 333FC5E8232AD1C9000D95E2 /* CommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		33EB6CC42326641B00BB181F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CC32326641B00BB181F /* AppDelegate.swift */; };
 		33EB6CC62326641B00BB181F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CC52326641B00BB181F /* ViewController.swift */; };
 		33EB6CC92326641B00BB181F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EB6CC72326641B00BB181F /* Main.storyboard */; };
 		33EB6CCB2326641D00BB181F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EB6CCA2326641D00BB181F /* Assets.xcassets */; };
 		33EB6CCE2326641D00BB181F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EB6CCC2326641D00BB181F /* LaunchScreen.storyboard */; };
-		33EB6CD723269C3300BB181F /* MultiplatformModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EB6CD623269C3300BB181F /* MultiplatformModule.framework */; };
-		33EB6CD823269C3300BB181F /* MultiplatformModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33EB6CD623269C3300BB181F /* MultiplatformModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		33EB6CDF2327E59C00BB181F /* NewsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CDE2327E59C00BB181F /* NewsItemCell.swift */; };
 		33EB6CE22327E93300BB181F /* DI+SwInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CE12327E93300BB181F /* DI+SwInject.swift */; };
 		33EB6CE52327E9AF00BB181F /* NewsRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CE42327E9AF00BB181F /* NewsRespository.swift */; };
 		33EB6CE82327F1B900BB181F /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CE72327F1B900BB181F /* NewsResponse.swift */; };
 		33EB6CEA2327F33E00BB181F /* NewsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CE92327F33E00BB181F /* NewsMapper.swift */; };
 		33EB6CED2327F36700BB181F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB6CEC2327F36700BB181F /* Mapper.swift */; };
-		FDF1A9EF65EA59235918F271 /* Pods_MultiplatformApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51478B70593A15C21BF4CAF0 /* Pods_MultiplatformApp.framework */; };
+		5A3BACA847948FD30F91C227 /* Pods_MultiplatformApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51478B70593A15C21BF4CAF0 /* Pods_MultiplatformApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		33EB6CD923269C3300BB181F /* Embed Frameworks */ = {
+		333FC5E6232ACF11000D95E2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				33EB6CD823269C3300BB181F /* MultiplatformModule.framework in Embed Frameworks */,
+				333FC5EA232AD1C9000D95E2 /* CommonModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0E772C201F8ADD882AC493DD /* Pods-MultiplatformApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiplatformApp.debug.xcconfig"; path = "Target Support Files/Pods-MultiplatformApp/Pods-MultiplatformApp.debug.xcconfig"; sourceTree = "<group>"; };
+		333FC5E8232AD1C9000D95E2 /* CommonModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonModule.framework; path = "../../common1/Common/common/build/xcode-frameworks/CommonModule.framework"; sourceTree = "<group>"; };
 		33EB6CC02326641B00BB181F /* MultiplatformApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplatformApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EB6CC32326641B00BB181F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33EB6CC52326641B00BB181F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		33EB6CCA2326641D00BB181F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33EB6CCD2326641D00BB181F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33EB6CCF2326641D00BB181F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33EB6CD623269C3300BB181F /* MultiplatformModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultiplatformModule.framework; path = "../../common/MultiplatformApp/common/build/xcode-frameworks/MultiplatformModule.framework"; sourceTree = "<group>"; };
 		33EB6CDE2327E59C00BB181F /* NewsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemCell.swift; sourceTree = "<group>"; };
 		33EB6CE12327E93300BB181F /* DI+SwInject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DI+SwInject.swift"; sourceTree = "<group>"; };
 		33EB6CE42327E9AF00BB181F /* NewsRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRespository.swift; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33EB6CD723269C3300BB181F /* MultiplatformModule.framework in Frameworks */,
-				FDF1A9EF65EA59235918F271 /* Pods_MultiplatformApp.framework in Frameworks */,
+				5A3BACA847948FD30F91C227 /* Pods_MultiplatformApp.framework in Frameworks */,
+				333FC5E9232AD1C9000D95E2 /* CommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		33EB6CB72326641B00BB181F = {
 			isa = PBXGroup;
 			children = (
-				33EB6CD623269C3300BB181F /* MultiplatformModule.framework */,
+				333FC5E8232AD1C9000D95E2 /* CommonModule.framework */,
 				33EB6CC22326641B00BB181F /* MultiplatformApp */,
 				33EB6CC12326641B00BB181F /* Products */,
 				7A45539996C4F7253A15E85A /* Pods */,
@@ -196,13 +196,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33EB6CD22326641D00BB181F /* Build configuration list for PBXNativeTarget "MultiplatformApp" */;
 			buildPhases = (
-				16AE4831B5E4F9B0910520EF /* [CP] Check Pods Manifest.lock */,
 				33EB6CDA23269D7900BB181F /* ShellScript */,
+				16AE4831B5E4F9B0910520EF /* [CP] Check Pods Manifest.lock */,
 				33EB6CBC2326641B00BB181F /* Sources */,
 				33EB6CBD2326641B00BB181F /* Frameworks */,
 				33EB6CBE2326641B00BB181F /* Resources */,
-				33EB6CD923269C3300BB181F /* Embed Frameworks */,
 				3CF8528159E7079D970E3DCB /* [CP] Embed Pods Frameworks */,
+				333FC5E6232ACF11000D95E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd $SRCROOT/../../common/MultiplatformApp/common/build/xcode-frameworks\n./gradlew :common:packForXcode\n";
+			shellScript = "cd $SRCROOT/../../common1/Common/common/build/xcode-frameworks\n./gradlew :common:packForXcode\n";
 		};
 		3CF8528159E7079D970E3DCB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -393,7 +393,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../common/MultiplatformApp/common/build/xcode-frameworks";
+				FRAMEWORK_SEARCH_PATHS = "../../common1/Common/common/build/xcode-frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -455,7 +455,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "../../common/MultiplatformApp/common/build/xcode-frameworks";
+				FRAMEWORK_SEARCH_PATHS = "../../common1/Common/common/build/xcode-frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

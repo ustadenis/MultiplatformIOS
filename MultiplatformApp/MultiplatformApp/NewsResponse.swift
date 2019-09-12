@@ -14,17 +14,17 @@ struct NewsResponse {
     let urlToImage: String
 }
 
-extension NewsResponse {
-    init?(json: Serialization) {
-        guard let title = json["title"] as? String,
-            let description = json["description"] as? String,
-            let urlToImage = json["urlToImage"] as? String
-            else {
-                return nil
-        }
-        
-        self.title = title
-        self.description = description
-        self.urlToImage = urlToImage
-    }
-}
+//extension NewsResponse {
+//    init?(json: Serialization) {
+//        guard let title = json["title"] as? String,
+//            let description = json["description"] as? String,
+//            let urlToImage = json["urlToImage"] as? String
+//            else {
+//                return nil
+//        }
+//        
+//        self.title = title
+//        self.description = description
+//        self.urlToImage = urlToImage
+//    }
+//}

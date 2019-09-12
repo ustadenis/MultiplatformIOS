@@ -7,16 +7,16 @@
 //
 
 import Foundation
-import MultiplatformModule
-
-class NewsMapper: Mapper {
-    
-    func map(item: [NewsResponse]) -> [News] {
-        var result: [News] = []
-        item.forEach { (response) in
-            result.append(News(iconUrl: response.urlToImage, newsTitle: response.title, newsDescription: response.description ))
-        }
-        return result
-    }
-    
-}
+//import MultiplatformModule
+//
+//class NewsMapper: Mapper {
+//    
+//    func map(item: [NewsResponse]) -> [News] {
+//        var result: [News] = []
+//        item.forEach { (response) in
+//            result.append(News(iconUrl: response.urlToImage, newsTitle: response.title, newsDescription: response.description ))
+//        }
+//        return result
+//    }
+//    
+//}
